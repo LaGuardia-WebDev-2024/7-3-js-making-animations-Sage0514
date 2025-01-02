@@ -5,6 +5,12 @@ void setup() {
 }
 
 //🎯Variable Declarations Go Here
+
+noStroke();
+
+// the beautiful blue sky
+  background(82, 222, 240);
+
 var sunSize = 50; 
 
 //sunSize
@@ -13,11 +19,11 @@ var x=50;
   
  //position of the ladybug
  var x=75;
-
+ 
   draw=function() {
 
 //all lines of code inside here will be run repeatedly
- background(82, 222, 240);
+
  
 
   // the beautiful blue sky
@@ -38,6 +44,7 @@ var x=50;
   ellipse(x, 350, 10, 10);
   
   x=x+2;
+  sunSize= sunSize + 3;
 
 }
 
